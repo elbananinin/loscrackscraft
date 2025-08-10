@@ -1,0 +1,61 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "london-dsc.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "6f8c5031-44d1-4315-9631-d25d0fc51eac",
+          "ip_hostname": "17.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 15155,
+          "port_start": 15154,
+          "region": "global",
+          "static_ip4": "147.185.221.17",
+          "static_ip6": "2602:fbaf:0:1::11",
+          "tunnel_ip": "2602:fbaf:0:1::11"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2025-08-10T16:18:03.158812Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "86b01f7d-c75f-4e86-bd56-41b20d0c8c7c",
+      "name": "Minecraft Bedrock",
+      "origin": {
+        "data": {
+          "agent_id": "3fe3a46a-8c49-4daf-9fbd-93e152702d28",
+          "agent_name": "from-key-7090",
+          "local_ip": "127.0.0.1",
+          "local_port": 19132
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-bedrock"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  }
+}
